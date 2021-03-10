@@ -1,37 +1,52 @@
-.navbar {
-    background-color: rgba(108, 110, 236, 0.993);
-    color: white;
-}
-
-.row {
-    background-color: rgba(108, 110, 236, 0.993);
-    padding: 1rem;
-    color: white;
-    border: rgb(0, 0, 0) 1px solid;
-}
-
-.col {
-    background-color: rgba(108, 110, 236, 0.993);
-    color: white;
-    border: rgb(0, 0, 0) 1px solid;
-}
-
-.card {
-    color: black;
-}
-
-.navbar-brand {
-    background-color: rgba(108, 110, 236, 0.993);
-    color: white;
-    border: rgb(0, 0, 0) 1px solid;
-    min-width: 10%;
-    min-height: 10%;
-}
-
-.caption {
-    background-color: rgba(108, 110, 236, 0.993);
-    color: white;
-    border: rgb(0, 0, 0) 1px solid;
-    min-width: 10%;
-    min-height: 10%;
-}
+    body {
+        background: #DADED4;
+    }
+    
+    .navbar {
+        background-color: #39603D;
+        color: white;
+    }
+    
+    .row {
+        background-color: #39603D;
+        padding: 1rem;
+        color: white;
+        border: rgb(0, 0, 0) 1px solid;
+    }
+    
+    .col {
+        background-color: #39603D;
+        color: white;
+        border: rgb(0, 0, 0) 1px solid;
+    }
+    
+    .card {
+        color: black;
+    }
+    
+    .navbar-brand {
+        background-color: #39603D;
+        color: white;
+        border: rgb(0, 0, 0) 1px solid;
+        min-width: 10%;
+        min-height: 10%;
+    }
+    
+    .caption {
+        background-color: #39603D;
+        color: white;
+        border: rgb(0, 0, 0) 1px solid;
+        min-width: 10%;
+        min-height: 10%;
+    }
+    
+    .logo-text {
+        color: white;
+        border: rgb(255, 255, 255) 2px solid;
+        text-align: center;
+        padding: 1rem;
+    }
+    
+    .nav-link active {
+        color: white;
+    }
