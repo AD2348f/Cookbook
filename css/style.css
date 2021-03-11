@@ -4,7 +4,6 @@
 
     #header {
         width: 100%;
-        height: 20%; // the desired height
         position: absolute;
         top: 0;
         left: 0;
@@ -26,8 +25,12 @@
         color: black;
     }
 
+    .container-top {
+        box-shadow: 8px 8px 14px 5px rgba(0, 0, 0, 0.74);
+    }
+
     .navbar {
-        background-color: #035517;
+        background-color: rgb(9, 103, 91);
         color: white;
         width: 100%;
     }
@@ -58,6 +61,7 @@
     }
 
     .logo-big {
+        padding-top: 1rem;
         display: flex;
         justify-content: center;
         font-size: 7rem;
@@ -65,26 +69,88 @@
         font-family: 'Bangers', cursive;
     }
 
+    .logo-big-img {
+        max-height: 5rem;
+    }
+
     .logo-sub {
         display: flex;
         justify-content: center;
         font-size: 2rem;
         font-family: 'Bangers', cursive;
-        color: black;
+        color: rgb(9, 103, 91);
+        border-bottom: 5px solid rgb(9, 103, 91);
     }
 
     .column-logo {
-        background-image: url(/img/lunch.jpeg);
-        background-color: #b40d0d;
-        background-repeat: no-repeat;
-        background-size: auto;
-        object-fit: contain;
+        background-color: #9DC88D;
     }
 
     .categorie-header {
         display: flex;
         justify-content: center;
-        color: rgb(90, 90, 90);
+        color: rgb(168, 190, 155);
+        border: rgb(168, 190, 155) solid 1px;
+        background: rgb(9, 103, 91);
+        padding: 1rem;
+        width: 30rem;
+        height: auto;
+        box-shadow: 8px 8px 14px 5px rgba(0, 0, 0, 0.74);
+    }
+
+    .main-body {
+        background-image: url(/img/pexels-photo-326311.jpeg);
+    }
+
+    .col-top {
+        display: flex;
+        justify-content: center;
+    }
+
+    .card-title {
+        display: flex;
+        justify-content: center;
+        color: rgb(168, 190, 155);
+        border: rgb(168, 190, 155) solid 1px;
+        background: rgb(9, 103, 91);
+        padding: 1rem;
+        width: 30rem;
+        height: auto;
+        box-shadow: 8px 8px 14px 5px rgba(0, 0, 0, 0.74);
+    }
+
+    .card-title-small {
+        display: flex;
+        justify-content: center;
+        color: rgb(168, 190, 155);
+        border: rgb(168, 190, 155) solid 1px;
+        background: rgb(9, 103, 91);
+        font-size: medium;
+        padding: 1rem;
+        width: 15rem;
+        height: auto;
+        box-shadow: 8px 8px 14px 5px rgba(0, 0, 0, 0.74);
+    }
+
+    .card-text-big {
+        color: rgb(168, 190, 155);
+        border: rgb(168, 190, 155) solid 1px;
+        background: rgb(9, 103, 91);
+        padding: 1rem;
+        width: 60rem;
+        height: auto;
+        box-shadow: 8px 3px 14px 5px rgba(0, 0, 0, 0.74);
+    }
+
+    .card-text {
+        color: rgb(168, 190, 155);
+        border: rgb(168, 190, 155) solid 1px;
+        background: rgb(9, 103, 91);
+        padding: 1rem;
+        width: auto;
+        height: auto;
+        box-shadow: 8px 3px 14px 5px rgba(0, 0, 0, 0.74);
+        margin-bottom: 30rem;
     }
 
     /* Hover Image Container */
@@ -92,6 +158,9 @@
     .img-container {
         position: relative;
         width: 50%;
+        box-shadow: 8px 8px 14px 5px rgba(0, 0, 0, 0.74);
+        margin-bottom: 0.8rem;
+        ;
     }
 
     .image {
@@ -123,10 +192,30 @@
     }
 
     .text {
-        background-color: #4CAF50;
-        color: white;
+        background-color: rgb(9, 103, 91);
+        color: rgb(168, 190, 155);
         font-size: 16px;
         padding: 16px 32px;
+        border: solid rgb(168, 190, 155) 1px;
     }
 
     /* Hover Image Container End */
+
+    .container-footer {
+        display: flex;
+        justify-content: end;
+        background-color: rgb(9, 103, 91);
+        border-top: #9DC88D solid 1px;
+    }
+
+    .container-footer a {
+        margin: 1rem;
+        color: rgb(168, 190, 155);
+    }
+
+   
+    /* mouse over link */
+
+    .container-footer a:hover {
+        color: rgb(225, 252, 209);        
+    }

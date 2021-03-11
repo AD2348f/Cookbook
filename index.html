@@ -17,20 +17,25 @@
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <script>
+        function myFunction() {
+            alert("Shared to the Social Mediaverse!");
+        }
+    </script>
 
 </head>
 
 <body>
     <!-- Start your project here-->
     <header>
-        <div class="container">
+        <div class="container-top">
             <!-- Navbar -->
 
             <nav class="row navbar navbar-expand-lg navbar-light ">
                 <!-- Container wrapper -->
                 <div class="container-fluid">
                     <!-- Navbar brand -->
-                    <a class="logo-text" href="#">Digital Food</a>
+
 
                     <!-- Toggle button -->
                     <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
@@ -79,24 +84,24 @@
                 <!-- Container wrapper -->
             </nav>
             <!-- Navbar -->
-            <div class="row">
-                <div class="column-logo">
-                    <div class="logo-big">
-                        <p>Digital Food</p>
-                    </div>
-                    <div class="logo-sub">
-                        <p>Eat, sleep, code, repeat</p>
-                    </div>
+
+            <div class="column-logo">
+                <div class="logo-big">
+                    <img src="/img/logo_large.png" alt="Logo" class="logo-big-img">
+                </div>
+                <div class="logo-sub">
+                    <p>Eat, sleep, code, repeat</p>
                 </div>
             </div>
+
         </div>
 
     </header>
 
-    <main>
+    <main class="main-body">
         <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col-top">
                     <div class="categorie-header">
                         <h1>Recipes of the Week</h1>
                     </div>
@@ -105,30 +110,45 @@
             <div class="row">
                 <div class="col">
                     <div class="rounded mx-auto d-block">
-                        <h2>Porridge with Fruits</h2>
-                        <img src="img/breakfast.jpeg" class="img-fluid w-300">
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                        <h2 class="card-title">Porridge with Fruits</h2>
+                        <div class="img-container">
+                            <img src="img/breakfast.jpeg" class="image" style="width:100%" alt="breakfast">
+                            <div class="middle">
+                                <a href="http://">
+                                    <div class="text">Porridge with Fruits</div>
+                                </a>
+                            </div>
+                        </div>
+                        <p class="card-text-big">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                            nonumy
+                            eirmod tempor
                             invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
                             et justo duo dolores et ea rebum. Stet clita kasd
                             gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
                             amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
                             dolore magna aliquyam erat, sed diam voluptua.
                             At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-                            takimata sanctus est Lorem ipsum dolor sit amet.
+                            takimata sanctus est Lorem ipsum dolor sit amet.                            
+                            <button type="submit" style="border: 0; background: transparent">                                
+                                <img src="/img/share.png" width="30" height="30" alt="Share" onclick="myFunction()" />
+                            </button>                            
                         </p>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col">
-                    <h2>Polenta with Veggies</h2>
+                    <h2 class="card-title-small">Polenta with Veggies</h2>
                     <div class="img-container">
                         <img src="img/lunch_thump.jpeg" alt="Polenta with Veggies" class="image" style="width:100%">
                         <div class="middle">
-                            <div class="text">Polenta with Veggies</div>
+                            <a href="http://">
+                                <div class="text">Polenta with Veggies</div>
+                            </a>
                         </div>
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                    <p class="card-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                        tempor invidunt
                         ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
                         dolores et ea rebum. Stet clita kasd gubergren,
                         no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
@@ -139,9 +159,17 @@
                     </p>
                 </div>
                 <div class="col">
-                    <h2>Hoisin Hotpot</h2>
-                    <img src="img/dinner_thump.jpg" class="img-fluid w-100" alt="...">
-                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                    <h2 class="card-title-small">Hoisin Hotpot</h2>
+                    <div class="img-container">
+                        <img src="img/dinner_thump.jpg" class="image" style="width:100%" alt="dinner">
+                        <div class="middle">
+                            <a href="http://">
+                                <div class="text">Hoisin Hotpot</div>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                        tempor invidunt
                         ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
                         dolores et ea rebum. Stet clita kasd gubergren,
                         no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
@@ -156,12 +184,11 @@
     </main>
 
     <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col">Copyright</div>
-                <div class="col">Impressum</div>
-                <div class="col">Social</div>
-            </div>
+        <div class="container-footer">
+            <a href="http://">Copyright</a>
+            <a href="http://">Impressum</a>
+            <a href="http://">Social</a>
+
         </div>
     </footer>
 
