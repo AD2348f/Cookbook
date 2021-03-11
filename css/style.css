@@ -1,52 +1,132 @@
     body {
         background: #DADED4;
     }
-    
-    .navbar {
-        background-color: #39603D;
-        color: white;
+
+    #header {
+        width: 100%;
+        height: 20%; // the desired height
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: blue;
     }
-    
+
     .row {
-        background-color: #39603D;
+        background-color: none;
         padding: 1rem;
         color: white;
-        border: rgb(0, 0, 0) 1px solid;
     }
-    
+
     .col {
-        background-color: #39603D;
+        background-color: none;
         color: white;
-        border: rgb(0, 0, 0) 1px solid;
     }
-    
+
     .card {
         color: black;
     }
-    
+
+    .navbar {
+        background-color: #035517;
+        color: white;
+        width: 100%;
+    }
+
     .navbar-brand {
         background-color: #39603D;
         color: white;
-        border: rgb(0, 0, 0) 1px solid;
         min-width: 10%;
         min-height: 10%;
     }
-    
+
     .caption {
         background-color: #39603D;
         color: white;
-        border: rgb(0, 0, 0) 1px solid;
         min-width: 10%;
         min-height: 10%;
     }
-    
+
     .logo-text {
         color: white;
         border: rgb(255, 255, 255) 2px solid;
         text-align: center;
         padding: 1rem;
     }
-    
-    .nav-link active {
+
+    .nav-link a {
         color: white;
     }
+
+    .logo-big {
+        display: flex;
+        justify-content: center;
+        font-size: 7rem;
+        color: black;
+        font-family: 'Bangers', cursive;
+    }
+
+    .logo-sub {
+        display: flex;
+        justify-content: center;
+        font-size: 2rem;
+        font-family: 'Bangers', cursive;
+        color: black;
+    }
+
+    .column-logo {
+        background-image: url(/img/lunch.jpeg);
+        background-color: #b40d0d;
+        background-repeat: no-repeat;
+        background-size: auto;
+        object-fit: contain;
+    }
+
+    .categorie-header {
+        display: flex;
+        justify-content: center;
+        color: rgb(90, 90, 90);
+    }
+
+    /* Hover Image Container */
+
+    .img-container {
+        position: relative;
+        width: 50%;
+    }
+
+    .image {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+    }
+
+    .middle {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .img-container:hover .image {
+        opacity: 0.3;
+    }
+
+    .img-container:hover .middle {
+        opacity: 1;
+    }
+
+    .text {
+        background-color: #4CAF50;
+        color: white;
+        font-size: 16px;
+        padding: 16px 32px;
+    }
+
+    /* Hover Image Container End */
