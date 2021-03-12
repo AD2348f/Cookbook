@@ -1,226 +1,237 @@
+body {
+  background: #daded4;
+  font-family: "Roboto";
+}
 
-    body {
-        background: #DADED4;
-    }
+h1,
+h2,
+h4,
+h3,
+h4,
+h5,
+h6 {
+  color: rgb(168, 190, 155);
+}
 
-    #header {
-        width: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        background-color: blue;
-    }
+p {
+  color: rgb(220, 244, 207);
+}
 
-    .row {
-        background-color: none;
-        padding: 1rem;
-        color: white;
-    }
+#header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: blue;
+}
 
-    .col {
-        background-color: none;
-        color: white;
-    }
+.row {
+  background-color: none;
+  padding: 1rem;
+  color: white;
+}
 
-    .card {
-        color: black;
-    }
+.col {
+  background-color: none;
+  color: white;
+}
 
-    .container-top {
-        box-shadow: 8px 8px 14px 5px rgba(0, 0, 0, 0.74);
-    }
+.card {
+  color: black;
+}
 
-    .navbar {
-        background-color: rgb(9, 103, 91);
-        color: white;
-        width: 100%;
-    }
+.container-top {
+  box-shadow: 8px 8px 14px 5px rgba(0, 0, 0, 0.74);
+}
 
-    .navbar-brand {
-        background-color: #39603D;
-        color: white;
-        min-width: 10%;
-        min-height: 10%;
-    }
+.navbar {
+  background-color: rgb(9, 103, 91);
+  color: white;
+  width: 100%;
+}
 
-    .caption {
-        background-color: #39603D;
-        color: white;
-        min-width: 10%;
-        min-height: 10%;
-    }
+.navbar-brand {
+  background-color: #39603d;
+  color: white;
+  min-width: 10%;
+  min-height: 10%;
+}
 
-    .logo-text {
-        color: white;
-        border: rgb(255, 255, 255) 2px solid;
-        text-align: center;
-        padding: 1rem;
-    }
+.caption {
+  background-color: #39603d;
+  color: white;
+  min-width: 10%;
+  min-height: 10%;
+}
 
-    .nav-link a {
-        color: white;
-    }
+.logo-text {
+  color: white;
+  border: rgb(255, 255, 255) 2px solid;
+  text-align: center;
+  padding: 1rem;
+}
 
-    .logo-big {
-        padding-top: 1rem;
-        display: flex;
-        justify-content: center;
-        font-size: 7rem;
-        color: black;
-        font-family: 'Bangers', cursive;
-    }
+.nav-link a {
+  color: white;
+}
 
-    .logo-big-img {
-        max-height: 5rem;
-    }
+.logo-big {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: center;
+  font-size: 7rem;
+  color: black;
+  font-family: "Bangers", cursive;
+}
 
-    .logo-sub {
-        display: flex;
-        justify-content: center;
-        font-size: 2rem;
-        font-family: 'Bangers', cursive;
-        color: rgb(9, 103, 91);
-        border-bottom: 5px solid rgb(9, 103, 91);
-    }
+.logo-big-img {
+  max-height: 5rem;
+}
 
-    .column-logo {
-        background-color: #9DC88D;
-    }
+.logo-sub {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  font-family: "Bangers", cursive;
+  color: rgb(9, 103, 91);
+  border-bottom: 5px solid rgb(9, 103, 91);
+}
 
-    .categorie-header {
-        display: flex;
-        justify-content: center;
-        color: rgb(168, 190, 155);
-        border: rgb(168, 190, 155) solid 1px;
-        background: rgb(9, 103, 91);
-        padding: 1rem;
-        width: 30rem;
-        height: auto;
-        box-shadow: 8px 8px 14px 5px rgba(0, 0, 0, 0.74);
-    }
+.column-logo {
+  background-color: #9dc88d;
+}
 
-    .main-body {
-        background-image: url(/img/pexels-photo-326311.jpeg);
-    }
+.categorie-header {
+  display: flex;
+  justify-content: center;
+  color: rgb(168, 190, 155);
+  border: rgb(168, 190, 155) solid 1px;
+  background: rgb(9, 103, 91);
+  padding: 1rem;
+  width: 30rem;
+  height: auto;
+  box-shadow: 8px 8px 14px 5px rgba(0, 0, 0, 0.74);
+}
 
-    .col-top {
-        display: flex;
-        justify-content: center;
-    }
+.main-body {
+  background-image: url(/img/pexels-photo-326311.jpeg);
+}
 
-    .card-title {
-        display: flex;
-        justify-content: center;
-        color: rgb(168, 190, 155);
-        border: rgb(168, 190, 155) solid 1px;
-        background: rgb(9, 103, 91);
-        padding: 1rem;
-        width: 30rem;
-        height: auto;
-        box-shadow: 8px 8px 14px 5px rgba(0, 0, 0, 0.74);
-    }
+.col-top {
+  display: flex;
+  justify-content: center;
+}
 
-    .card-title-small {
-        display: flex;
-        justify-content: center;
-        color: rgb(168, 190, 155);
-        border: rgb(168, 190, 155) solid 1px;
-        background: rgb(9, 103, 91);
-        font-size: medium;
-        padding: 1rem;
-        width: 15rem;
-        height: auto;
-        box-shadow: 8px 8px 14px 5px rgba(0, 0, 0, 0.74);
-    }
+.card-title {
+  display: flex;
+  justify-content: center;
+  color: rgb(168, 190, 155);
+  border: rgb(168, 190, 155) solid 1px;
+  background: rgb(9, 103, 91);
+  padding: 1rem;
+  width: 30rem;
+  height: auto;
+  box-shadow: 8px 8px 14px 5px rgba(0, 0, 0, 0.74);
+}
 
-    .card-text-big {
-        color: rgb(168, 190, 155);
-        border: rgb(168, 190, 155) solid 1px;
-        background: rgb(9, 103, 91);
-        padding: 1rem;
-        width: 60rem;
-        height: auto;
-        box-shadow: 8px 3px 14px 5px rgba(0, 0, 0, 0.74);
-    }
+.card-title-small {
+  display: flex;
+  justify-content: center;
+  color: rgb(168, 190, 155);
+  border: rgb(168, 190, 155) solid 1px;
+  background: rgb(9, 103, 91);
+  font-size: medium;
+  padding: 1rem;
+  width: 15rem;
+  height: auto;
+  box-shadow: 8px 8px 14px 5px rgba(0, 0, 0, 0.74);
+}
 
-    .card-text {
-        color: rgb(168, 190, 155);
-        border: rgb(168, 190, 155) solid 1px;
-        background: rgb(9, 103, 91);
-        padding: 1rem;
-        width: auto;
-        height: auto;
-        box-shadow: 8px 3px 14px 5px rgba(0, 0, 0, 0.74);
-        margin-bottom: 30rem;
-    }
+.card-text-big {
+  color: rgb(168, 190, 155);
+  border: rgb(168, 190, 155) solid 1px;
+  background: rgb(9, 103, 91);
+  padding: 1rem;
+  width: 60rem;
+  height: auto;
+  box-shadow: 8px 3px 14px 5px rgba(0, 0, 0, 0.74);
+}
 
-    /* Hover Image Container */
+.card-text {
+  color: rgb(168, 190, 155);
+  border: rgb(168, 190, 155) solid 1px;
+  background: rgb(9, 103, 91);
+  padding: 1rem;
+  width: auto;
+  height: auto;
+  box-shadow: 8px 3px 14px 5px rgba(0, 0, 0, 0.74);
+  margin-bottom: 30rem;
+}
 
-    .img-container {
-        position: relative;
-        width: 50%;
-        box-shadow: 8px 8px 14px 5px rgba(0, 0, 0, 0.74);
-        margin-bottom: 0.8rem;
-        ;
-    }
+/* Hover Image Container */
 
-    .image {
-        opacity: 1;
-        display: block;
-        width: 100%;
-        height: auto;
-        transition: .5s ease;
-        backface-visibility: hidden;
-    }
+.img-container {
+  position: relative;
+  width: 50%;
+  box-shadow: 8px 8px 14px 5px rgba(0, 0, 0, 0.74);
+  margin-bottom: 0.8rem;
+}
 
-    .middle {
-        transition: .5s ease;
-        opacity: 0;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        text-align: center;
-    }
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
 
-    .img-container:hover .image {
-        opacity: 0.3;
-    }
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
 
-    .img-container:hover .middle {
-        opacity: 1;
-    }
+.img-container:hover .image {
+  opacity: 0.3;
+}
 
-    .text {
-        background-color: rgb(9, 103, 91);
-        color: rgb(168, 190, 155);
-        font-size: 16px;
-        padding: 16px 32px;
-        border: solid rgb(168, 190, 155) 1px;
-    }
+.img-container:hover .middle {
+  opacity: 1;
+}
 
-    /* Hover Image Container End */
+.text {
+  background-color: rgb(9, 103, 91);
+  color: rgb(168, 190, 155);
+  font-size: 16px;
+  padding: 16px 32px;
+  border: solid rgb(168, 190, 155) 1px;
+}
 
-    .container-footer {
-        display: flex;
-        justify-content: end;
-        background-color: rgb(9, 103, 91);
-        border-top: #9DC88D solid 1px;
-    }
+/* Hover Image Container End */
 
-    .container-footer a {
-        margin: 1rem;
-        color: rgb(168, 190, 155);
-    }
+.container-footer {
+  display: flex;
+  justify-content: end;
+  background-color: rgb(9, 103, 91);
+  border-top: #9dc88d solid 1px;
+}
 
-   
-    /* mouse over link */
+.container-footer a {
+  margin: 1rem;
+  color: rgb(168, 190, 155);
+}
 
-    .container-footer a:hover {
-        color: rgb(225, 252, 209);        
-    }
+/* mouse over link */
 
+.container-footer a:hover {
+  color: rgb(225, 252, 209);
+}
 
 /* Ollis Part */
 
@@ -251,3 +262,20 @@
   background: pink;
 }
 
+.img-breakfast {
+  max-width: 20rem;
+}
+
+.card-text-categories {
+  color: rgb(168, 190, 155);
+  border: rgb(168, 190, 155) solid 1px;
+  background: rgb(9, 103, 91);
+  padding: 1rem;
+  width: auto;
+  height: auto;
+  box-shadow: 8px 3px 14px 5px rgba(0, 0, 0, 0.74);
+}
+
+.categorie-text-image-wrapper {
+  display: flex;
+}
