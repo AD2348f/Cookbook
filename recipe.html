@@ -60,7 +60,6 @@
               </li>
             </ul>
             <!-- Left links -->
-
             <!-- Search form -->
             <form class="d-flex input-group w-auto">
               <input type="search" class="form-control" placeholder="Type query" aria-label="Search" />
@@ -89,13 +88,26 @@
       <!--Description -->
       <div class="row">
         <div class="col">
-          <h3>Description</h3>
+          <div class="d-flex w-100 justify-content-between">
+            <h3>Description</h3>
+            <small class="pt-2">
+              <a href="#"><i class="fas fa-share-alt-square fa-lg text-white"></i></a>
+              <a href="#"><i class="fas fa-heart fa-lg hover-zoom text-white"></i></a>
+            </small>
+          </div>
+
 
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ad nisi eaque reiciendis repellendus
             excepturi fugiat similique deserunt nihil aperiam ipsam labore, impedit, dolore suscipit enim nostrum. Esse,
             quis suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero delectus rerum sit voluptas.
             Cum voluptatem laborum repellendus aspernatur vel excepturi laboriosam nam molestias fuga dolorem, nemo
             commodi hic iure nisi?</p>
+
+          <strong>Rating: </strong>
+          <a href="#"><i id="star1" class="fas fa-star fa-lg text-warning"></i></a>
+          <a href="#"><i id="star2" class="fas fa-star fa-lg hover-stars"></i></a>
+          <a href="#"><i id="star3" class="fas fa-star fa-lg hover-stars"></i></a>
+          <a href="#"><i id="star4" class="fas fa-star fa-lg hover-stars"></i></a>
         </div>
       </div>
 
@@ -205,48 +217,6 @@
         <small>Lorem ipsum dolor sit amet consectetur adipisicing elit.</small>
       </div>
 
-      <!-- TEST: list-group 
-      <div class="row">
-        <div class="col">
-          <div class="list-group">
-            <div class="list-group-item list-group-item-action active" aria-current="true">
-              <h3>Description</h3>
-            </div>
-            <div class="list-group-item list-group-item-action" aria-current="true">
-              <div class="d-flex w-100 justify-content-between">
-                <h5 class="mb-1">First step</h5>
-                <small>5 minutes</small>
-              </div>
-              <p class="mb-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, odio libero, quas quae
-                deserunt provident iure est adipisci optio, eum saepe ullam! Laborum minima, officia pariatur iure harum
-                dolore doloribus.</p>
-              <small>Lorem ipsum dolor sit amet consectetur adipisicing elit.</small>
-            </div>
-            <div class="list-group-item list-group-item-action" aria-current="true">
-              <div class="d-flex w-100 justify-content-between">
-                <h5 class="mb-1">Second step</h5>
-                <small>15 minutes</small>
-              </div>
-              <p class="mb-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, odio libero, quas quae
-                deserunt provident iure est adipisci optio, eum saepe ullam! Laborum minima, officia pariatur iure harum
-                dolore doloribus.</p>
-              <small>Lorem ipsum dolor sit amet consectetur adipisicing elit.</small>
-            </div>
-            <div class="list-group-item list-group-item-action" aria-current="true">
-              <div class="d-flex w-100 justify-content-between">
-                <h5 class="mb-1">Third step</h5>
-                <small>25 minutes</small>
-              </div>
-              <p class="mb-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, odio libero, quas quae
-                deserunt provident iure est adipisci optio, eum saepe ullam! Laborum minima, officia pariatur iure harum
-                dolore doloribus.</p>
-              <small>Lorem ipsum dolor sit amet consectetur adipisicing elit.</small>
-            </div>
-          </div>
-        </div>
-      </div>      
-      -->
-
   </main>
 
   <footer>
@@ -254,10 +224,21 @@
       <div class="row">
         <div class="col">Copyright</div>
         <div class="col">Impressum</div>
-        <div class="col">Social</div>
+        <div class="col">
+          <h3>Social</h3>
+          <div>
+            <ul class="social-network social-circle">
+              <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
+              <li><a href="#" class="icoFacebook" title="Facebook"><i class="fab fa-facebook-square"></i></a></li>
+              <li><a href="#" class="icoTwitter" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#" class="icoYoutube" title="Google +"><i class="fab fa-youtube"></i></a></li>
+              <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
-  </footer> 
+  </footer>
 
   <!-- End your project here-->
 
