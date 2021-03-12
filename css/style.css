@@ -1,3 +1,4 @@
+
     body {
         background: #DADED4;
     }
@@ -219,3 +220,34 @@
     .container-footer a:hover {
         color: rgb(225, 252, 209);        
     }
+
+
+/* Ollis Part */
+
+.hover-button-meals {
+  box-sizing: border-box;
+}
+
+.hover-button-meals {
+  background-color: grey;
+  transition: transform 0.8s;
+  width: 250px;
+  height: 50px;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  border: 5px;
+}
+
+.hover-button-meals:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+  background: pink;
+}
+
