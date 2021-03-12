@@ -1,37 +1,66 @@
 .navbar {
-    background-color: rgba(108, 110, 236, 0.993);
-    color: white;
+  background-color: rgba(108, 110, 236, 0.993);
+  color: white;
 }
 
 .row {
-    background-color: rgba(108, 110, 236, 0.993);
-    padding: 1rem;
-    color: white;
-    border: rgb(0, 0, 0) 1px solid;
+  background-color: rgba(108, 110, 236, 0.993);
+  padding: 1rem;
+  color: white;
+  border: rgb(0, 0, 0) 1px solid;
 }
 
 .col {
-    background-color: rgba(108, 110, 236, 0.993);
-    color: white;
-    border: rgb(0, 0, 0) 1px solid;
+  background-color: rgba(108, 110, 236, 0.993);
+  color: white;
+  border: rgb(0, 0, 0) 1px solid;
 }
 
 .card {
-    color: black;
+  color: black;
 }
 
 .navbar-brand {
-    background-color: rgba(108, 110, 236, 0.993);
-    color: white;
-    border: rgb(0, 0, 0) 1px solid;
-    min-width: 10%;
-    min-height: 10%;
+  background-color: rgba(108, 110, 236, 0.993);
+  color: white;
+  border: rgb(0, 0, 0) 1px solid;
+  min-width: 10%;
+  min-height: 10%;
 }
 
 .caption {
-    background-color: rgba(108, 110, 236, 0.993);
-    color: white;
-    border: rgb(0, 0, 0) 1px solid;
-    min-width: 10%;
-    min-height: 10%;
+  background-color: rgba(108, 110, 236, 0.993);
+  color: white;
+  border: rgb(0, 0, 0) 1px solid;
+  min-width: 10%;
+  min-height: 10%;
+}
+
+/* Ollis Part */
+
+.hover-button-meals {
+  box-sizing: border-box;
+}
+
+.hover-button-meals {
+  background-color: grey;
+  transition: transform 0.8s;
+  width: 250px;
+  height: 50px;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  border: 5px;
+}
+
+.hover-button-meals:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+  background: pink;
 }
