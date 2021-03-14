@@ -151,12 +151,10 @@ a:hover,
 
 .card-title {
   display: flex;
-  justify-content: center;
   color: rgb(168, 190, 155);
   border: rgb(168, 190, 155) solid 1px;
   background: rgb(9, 103, 91);
   padding: 1rem;
-  width: 30rem;
   height: auto;
   box-shadow: 8px 8px 14px 5px rgba(0, 0, 0, 0.74);
 }
@@ -203,9 +201,20 @@ a:hover,
 
 .img-container {
   position: relative;
-  width: 50%;
   box-shadow: 8px 8px 14px 5px rgba(0, 0, 0, 0.74);
   margin-bottom: 0.8rem;
+}
+
+.img-container {
+  max-height: 400px !important;
+}
+
+.img-container:hover .image {
+  opacity: 0.3;
+}
+
+.img-container:hover .middle {
+  opacity: 1;
 }
 
 .image {
@@ -228,13 +237,7 @@ a:hover,
   text-align: center;
 }
 
-.img-container:hover .image {
-  opacity: 0.3;
-}
 
-.img-container:hover .middle {
-  opacity: 1;
-}
 
 .text {
   background-color: rgb(9, 103, 91);
