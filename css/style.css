@@ -1,230 +1,264 @@
-    body {
-        background: #DADED4;
-    }
+body {
+  background: #daded4;
+  font-family: "Roboto";
+}
 
-    #header {
-        width: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        background-color: blue;
-    }
+h1,
+h2,
+h4,
+h3,
+h4,
+h5,
+h6 {
+  color: rgb(168, 190, 155);
+}
 
-    .row {
-        background-color: none;
-        padding: 1rem;
-        color: white;
-    }
+p {
+  color: rgb(220, 244, 207);
+}
 
-    .col {
-        background-color: none;
-        color: white;
-    }
+a,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(168, 190, 155);
+}
 
-    .card {
-        color: black;
-    }
+a:hover,
+.nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active:hover,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: rgb(220, 244, 207);
+}
 
-    .container-top {
-        box-shadow: 8px 8px 14px 5px rgba(0, 0, 0, 0.74);
-    }
+#header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: blue;
+}
 
-    .navbar {
-        background-color: rgb(9, 103, 91);
-        color: white;
-        width: 100%;
-    }
+.dropdown-item {
+  background-color: rgb(9, 103, 91);
+  color: rgb(168, 190, 155);
+}
 
-    .navbar-brand {
-        background-color: #39603D;
-        color: white;
-        min-width: 10%;
-        min-height: 10%;
-    }
+.dropdown-item:hover {
+  background-color: rgb(9, 103, 91);
+  color: rgb(220, 244, 207);
+}
 
-    .caption {
-        background-color: #39603D;
-        color: white;
-        min-width: 10%;
-        min-height: 10%;
-    }
+.dropdown-menu {
+  border: 1px solid rgb(168, 190, 155);
+}
 
-    .logo-text {
-        color: white;
-        border: rgb(255, 255, 255) 2px solid;
-        text-align: center;
-        padding: 1rem;
-    }
+.row {
+  background-color: none;
+  padding: 1rem;
+  color: white;
+}
 
-    .nav-link a {
-        color: white;
-    }
+.col {
+  background-color: none;
+  color: white;
+}
 
-    .logo-big {
-        padding-top: 1rem;
-        display: flex;
-        justify-content: center;
-        font-size: 7rem;
-        color: black;
-        font-family: 'Bangers', cursive;
-    }
+.card {
+  color: black;
+}
 
-    .logo-big-img {
-        max-height: 5rem;
-    }
+.container-top {
+  box-shadow: 8px 8px 14px 5px rgba(0, 0, 0, 0.74);
+}
 
-    .logo-sub {
-        display: flex;
-        justify-content: center;
-        font-size: 2rem;
-        font-family: 'Bangers', cursive;
-        color: rgb(9, 103, 91);
-        border-bottom: 5px solid rgb(9, 103, 91);
-    }
+.navbar {
+  background-color: rgb(9, 103, 91);
+  color: white;
+}
 
-    .column-logo {
-        background-color: #9DC88D;
-    }
+.navbar-brand {
+  background-color: #39603d;
+  color: white;
+  min-width: 10%;
+  min-height: 10%;
+}
 
-    .categorie-header {
-        display: flex;
-        justify-content: center;
-        color: rgb(168, 190, 155);
-        border: rgb(168, 190, 155) solid 1px;
-        background: rgb(9, 103, 91);
-        padding: 1rem;
-        width: 30rem;
-        height: auto;
-        box-shadow: 8px 8px 14px 5px rgba(0, 0, 0, 0.74);
-    }
-
-    .main-body {
-        background-image: url(/img/pexels-photo-326311.jpeg);
-    }
-
-    .col-top {
-        display: flex;
-        justify-content: center;
-    }
-
-    .card-title {
-        display: flex;
-        justify-content: center;
-        color: rgb(168, 190, 155);
-        border: rgb(168, 190, 155) solid 1px;
-        background: rgb(9, 103, 91);
-        padding: 1rem;
-        width: 30rem;
-        height: auto;
-        box-shadow: 8px 8px 14px 5px rgba(0, 0, 0, 0.74);
-    }
-
-    .card-title-small {
-        display: flex;
-        justify-content: center;
-        color: rgb(168, 190, 155);
-        border: rgb(168, 190, 155) solid 1px;
-        background: rgb(9, 103, 91);
-        font-size: medium;
-        padding: 1rem;
-        width: 15rem;
-        height: auto;
-        box-shadow: 8px 8px 14px 5px rgba(0, 0, 0, 0.74);
-    }
-
-    .card-text-big {
-        color: rgb(168, 190, 155);
-        border: rgb(168, 190, 155) solid 1px;
-        background: rgb(9, 103, 91);
-        padding: 1rem;
-        width: 60rem;
-        height: auto;
-        box-shadow: 8px 3px 14px 5px rgba(0, 0, 0, 0.74);
-    }
-
-    .card-text {
-        color: rgb(168, 190, 155);
-        border: rgb(168, 190, 155) solid 1px;
-        background: rgb(9, 103, 91);
-        padding: 1rem;
-        width: auto;
-        height: auto;
-        box-shadow: 8px 3px 14px 5px rgba(0, 0, 0, 0.74);
-        margin-bottom: 30rem;
-    }
-
-    /* Hover Image Container */
-
-    .img-container {
-        position: relative;
-        width: 50%;
-        box-shadow: 8px 8px 14px 5px rgba(0, 0, 0, 0.74);
-        margin-bottom: 0.8rem;
-        ;
-    }
-
-    .image {
-        opacity: 1;
-        display: block;
-        width: 100%;
-        height: auto;
-        transition: .5s ease;
-        backface-visibility: hidden;
-    }
-
-    .middle {
-        transition: .5s ease;
-        opacity: 0;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        text-align: center;
-    }
-
-    .img-container:hover .image {
-        opacity: 0.3;
-    }
-
-    .img-container:hover .middle {
-        opacity: 1;
-    }
-
-    .text {
-        background-color: rgb(9, 103, 91);
-        color: rgb(168, 190, 155);
-        font-size: 16px;
-        padding: 16px 32px;
-        border: solid rgb(168, 190, 155) 1px;
-    }
-
-    /* Hover Image Container End */
-
-    .container-footer {
-        display: flex;
-        justify-content: end;
-        background-color: rgb(9, 103, 91);
-        border-top: #9DC88D solid 1px;
-    }
-
-    .container-footer a {
-        margin: 1rem;
-        color: rgb(168, 190, 155);
-    }
-
-   
-    /* mouse over link */
-
-    .container-footer a:hover {
-        color: rgb(225, 252, 209);        
-    }
+.caption {
+  background-color: #39603d;
+  color: white;
+  min-width: 10%;
+  min-height: 10%;
+}
 
 .logo-text {
   color: white;
   border: rgb(255, 255, 255) 2px solid;
   text-align: center;
   padding: 1rem;
+}
+
+.nav-link a {
+  color: white;
+}
+
+.logo-big {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: center;
+  font-size: 7rem;
+  color: black;
+  font-family: "Bangers", cursive;
+}
+
+.logo-big-img {
+  max-height: 5rem;
+}
+
+.logo-sub {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  font-family: "Bangers", cursive;
+  color: rgb(9, 103, 91);
+  border-bottom: 5px solid rgb(9, 103, 91);
+}
+
+.column-logo {
+  background-color: #9dc88d;
+}
+
+.categorie-header {
+  display: flex;
+  justify-content: center;
+  color: rgb(168, 190, 155);
+  border: rgb(168, 190, 155) solid 1px;
+  background: rgb(9, 103, 91);
+  padding: 1rem;
+  width: 30rem;
+  height: auto;
+  box-shadow: 8px 8px 14px 5px rgba(0, 0, 0, 0.74);
+}
+
+.main-body {
+  background-image: url(/img/pexels-photo-326311.jpeg);
+}
+
+.col-top {
+  display: flex;
+  justify-content: center;
+}
+
+.card-title {
+  display: flex;
+  justify-content: center;
+  color: rgb(168, 190, 155);
+  border: rgb(168, 190, 155) solid 1px;
+  background: rgb(9, 103, 91);
+  padding: 1rem;
+  width: 30rem;
+  height: auto;
+  box-shadow: 8px 8px 14px 5px rgba(0, 0, 0, 0.74);
+}
+
+.card-title-small {
+  display: flex;
+  justify-content: center;
+  color: rgb(168, 190, 155);
+  border: rgb(168, 190, 155) solid 1px;
+  background: rgb(9, 103, 91);
+  font-size: medium;
+  padding: 1rem;
+  width: 15rem;
+  height: auto;
+  box-shadow: 8px 8px 14px 5px rgba(0, 0, 0, 0.74);
+}
+
+.card-text-big {
+  color: rgb(168, 190, 155);
+  border: rgb(168, 190, 155) solid 1px;
+  background: rgb(9, 103, 91);
+  padding: 1rem;
+  width: 60rem;
+  height: auto;
+  box-shadow: 8px 3px 14px 5px rgba(0, 0, 0, 0.74);
+}
+
+.card-text {
+  color: rgb(168, 190, 155);
+  border: rgb(168, 190, 155) solid 1px;
+  background: rgb(9, 103, 91);
+  padding: 1rem;
+  width: auto;
+  height: auto;
+  box-shadow: 8px 3px 14px 5px rgba(0, 0, 0, 0.74);
+  margin-bottom: 30rem;
+}
+
+.card-body {
+  background: rgb(9, 103, 91);
+}
+
+/* Hover Image Container */
+
+.img-container {
+  position: relative;
+  width: 50%;
+  box-shadow: 8px 8px 14px 5px rgba(0, 0, 0, 0.74);
+  margin-bottom: 0.8rem;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.img-container:hover .image {
+  opacity: 0.3;
+}
+
+.img-container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: rgb(9, 103, 91);
+  color: rgb(168, 190, 155);
+  font-size: 16px;
+  padding: 16px 32px;
+  border: solid rgb(168, 190, 155) 1px;
+}
+
+/* Hover Image Container End */
+
+.container-footer {
+  background-color: rgb(9, 103, 91);
+  border-top: #9dc88d solid 1px;
+}
+
+.container-footer a {
+  margin: 1rem;
+  color: rgb(168, 190, 155);
+}
+
+/* mouse over link */
+
+.container-footer a:hover {
+  color: rgb(225, 252, 209);
 }
 
 .nav-link active {
@@ -260,6 +294,23 @@
   background: pink;
 }
 
+.img-breakfast {
+  max-width: 20rem;
+}
+
+.card-text-categories {
+  color: rgb(168, 190, 155);
+  border: rgb(168, 190, 155) solid 1px;
+  background: rgb(9, 103, 91);
+  padding: 1rem;
+  width: auto;
+  height: auto;
+  box-shadow: 8px 3px 14px 5px rgba(0, 0, 0, 0.74);
+}
+
+.categorie-text-image-wrapper {
+  display: flex;
+}
 
 /****************** Robertos part ******************/
 
@@ -273,7 +324,7 @@
   -o-transition: all 0.4s;
   -ms-transition: all 0.4s;
   transition: all 0.4s;
-  color:#ffa900;
+  color: #ffa900;
 }
 
 /*** Social Icons  ***/
@@ -338,7 +389,7 @@ a.socialIcon:hover,
   width: 50px;
   height: 50px;
   font-size: 20px;
-  background-color: #d3d3d3;
+  background-color: rgb(168, 190, 155);
 }
 
 .social-circle li i {
