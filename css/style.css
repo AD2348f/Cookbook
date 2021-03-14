@@ -221,10 +221,6 @@ a:hover,
   backface-visibility: hidden;
 }
 
-.image-index-top {
-  height: 500px;
-}
-
 .middle {
   transition: 0.5s ease;
   opacity: 0;
