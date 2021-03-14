@@ -19,7 +19,8 @@ p {
 
 a,
 .navbar-light .navbar-nav .nav-link.active,
-.navbar-light .navbar-nav .nav-link {
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .nav-link:focus {
   color: rgb(168, 190, 155);
 }
 
@@ -386,14 +387,14 @@ a.socialIcon:hover,
   -webkit-border-radius: 50%;
   border-radius: 50%;
   text-align: center;
-  width: 50px;
-  height: 50px;
-  font-size: 20px;
+  width: 35px;
+  height: 35px;
+  font-size: 18px;
   background-color: rgb(168, 190, 155);
 }
 
 .social-circle li i {
-  margin: 0;
+  margin: -8px;
   line-height: 50px;
   text-align: center;
 }
