@@ -205,10 +205,6 @@ a:hover,
   margin-bottom: 0.8rem;
 }
 
-.img-container {
-  max-height: 400px !important;
-}
-
 .img-container:hover .image {
   opacity: 0.3;
 }
@@ -223,6 +219,10 @@ a:hover,
   height: 300px;
   transition: 0.5s ease;
   backface-visibility: hidden;
+}
+
+.image-index-top {
+  height: 500px;
 }
 
 .middle {
