@@ -141,7 +141,7 @@ a:hover,
 }
 
 .main-body {
-  background-image: url(/img/pexels-photo-326311.jpeg);
+  background-image: url(../img/pexels-photo-326311.jpeg);
 }
 
 .col-top {
@@ -220,8 +220,7 @@ a:hover,
 .image {
   opacity: 1;
   display: block;
-  width: 100%;
-  height: auto;
+  height: 300px;
   transition: 0.5s ease;
   backface-visibility: hidden;
 }
@@ -276,26 +275,25 @@ a:hover,
 }
 
 .hover-button-meals {
-  background-color: grey;
+  background-color: rgb(168, 190, 155);
   transition: transform 0.8s;
-  width: 250px;
-  height: 50px;
+  width: 100px;
+  height: 25px;
   border: none;
   border-radius: 15px;
-  padding: 10px 25px;
-  font-size: 24px;
   text-align: center;
   cursor: pointer;
   outline: none;
   color: #fff;
   border: 5px;
+  display: inline-block;
 }
 
 .hover-button-meals:hover {
   -ms-transform: scale(1.1); /* IE 9 */
   -webkit-transform: scale(1.1); /* Safari 3-8 */
   transform: scale(1.1);
-  background: pink;
+  background: #9dc88d;
 }
 
 .img-breakfast {
@@ -317,6 +315,12 @@ a:hover,
 }
 
 /****************** Robertos part ******************/
+
+/*** Share and Save icons  ***/
+.btns-share i {
+  font-size: 1.3rem;
+  color: #fff;
+}
 
 /*** Stars rating  ***/
 .hover-stars:hover {
