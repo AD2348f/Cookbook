@@ -12,34 +12,34 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
   <!-- MDB -->
   <link rel="stylesheet" href="css/mdb.min.css" />
-
+  <!-- Our styles -->
   <link rel="stylesheet" href="./css/style.css">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <!-- Start your project here-->
   <header>
-    <div class="container">
+    <div class="container-top">
       <!-- Navbar -->
       <nav class="row navbar navbar-expand-lg navbar-light ">
         <!-- Container wrapper -->
         <div class="container-fluid">
           <!-- Navbar brand -->
-          <a class="logo-text" href="#">Digital Food</a>
-
           <!-- Toggle button -->
           <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
             data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
             <i class="fas fa-bars"></i>
           </button>
-
           <!-- Collapsible wrapper -->
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <!-- Left links -->
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <!-- Navbar dropdown -->
               <li class="nav-item dropdown">
@@ -49,13 +49,13 @@
                 </a>
                 <!-- Dropdown menu -->
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Breakfast</a></li>
-                  <li><a class="dropdown-item" href="#">Lunch</a></li>
-                  <li><a class="dropdown-item" href="#">Dinner</a></li>
+                  <li><a class="dropdown-item" href="breakfast.html">Breakfast</a></li>
+                  <li><a class="dropdown-item" href="lunch.html">Lunch</a></li>
+                  <li><a class="dropdown-item" href="dinner.html">Dinner</a></li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
+                <a class="nav-link active" aria-current="page" href="about.html">
                   About</a>
               </li>
             </ul>
@@ -73,179 +73,197 @@
         <!-- Container wrapper -->
       </nav>
       <!-- Navbar -->
+      <div class="column-logo">
+        <div class="logo-big">
+          <img src="img/logo_large.png" alt="Logo" class="logo-big-img">
+        </div>
+        <div class="logo-sub">
+          <p>Eat, sleep, code, repeat</p>
+        </div>
+      </div>
     </div>
   </header>
 
-  <main>
+  <main class="main-body pb-5">
     <div class="container">
       <!--Title -->
-      <div class="row">
-        <div class="col">
-          <h1>Pancakes</h1>
-        </div>
+      <div class="row px-0 mx-0">
+        <h1 class="card-title">Pancakes</h1>
       </div>
 
-      <!--Description -->
-      <div class="row">
-        <div class="col">
-          <div class="d-flex w-100 justify-content-between">
-            <h3>Description</h3>
-            <small class="pt-2">
-              <a href="#"><i class="fas fa-share-alt-square fa-lg text-white"></i></a>
-              <a href="#"><i class="fas fa-heart fa-lg hover-zoom text-white"></i></a>
-            </small>
-          </div>
-
-
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ad nisi eaque reiciendis repellendus
-            excepturi fugiat similique deserunt nihil aperiam ipsam labore, impedit, dolore suscipit enim nostrum. Esse,
-            quis suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero delectus rerum sit voluptas.
-            Cum voluptatem laborum repellendus aspernatur vel excepturi laboriosam nam molestias fuga dolorem, nemo
-            commodi hic iure nisi?</p>
-
-          <strong>Rating: </strong>
-          <a href="#"><i id="star1" class="fas fa-star fa-lg text-warning"></i></a>
-          <a href="#"><i id="star2" class="fas fa-star fa-lg hover-stars"></i></a>
-          <a href="#"><i id="star3" class="fas fa-star fa-lg hover-stars"></i></a>
-          <a href="#"><i id="star4" class="fas fa-star fa-lg hover-stars"></i></a>
-        </div>
-      </div>
-
-      <!--Image + Table of ingredients -->
-      <div class="row">
-        <!--<div class="col-lg-8 py-0 my-0 ps-lg-0 pe-lg-3 px-md-0 py-lg-0 py-3">-->
-        <div class="
-          col-lg-8
-          px-0 
-          py-3 
-          pe-lg-3 
-          py-lg-0">
-          <div class="card">
-            <img src="img/pancakes-example-hori.jpg" class="card-img-top" alt="...">
-            <div class="card-body text-center">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
+      <div class="card-text-categories">
+        <!--Description -->
+        <div class="row">
+          <div class="col">
+            <div class="d-flex w-100 justify-content-between">
+              <h3><a href=""> Description</a></h3>
+              <small class="pt-2">
+                <a class="btns-share" href="#"><i class="fas fa-share-alt-square px-1 hover-stars"></i></a>
+                <a class="btns-save" href="#"><i class="fas fa-heart hover-stars"></i></a>
+              </small>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ad nisi eaque reiciendis repellendus
+              excepturi fugiat similique deserunt nihil aperiam ipsam labore, impedit, dolore suscipit enim nostrum.
+              Esse,
+              quis suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero delectus rerum sit voluptas.
+              Cum voluptatem laborum repellendus aspernatur vel excepturi laboriosam nam molestias fuga dolorem, nemo
+              commodi hic iure nisi?</p>
+            <div class="d-flex w-100 justify-content-end stars">
+              <div class="pt-2">
+                <small>Rating: </small>
+                <a class="stars-icons" href="#"><i class="fas fa-star fa-lg fa-1x text-warning"></i></a>
+                <a class="stars-icons" href="#"><i class="fas fa-star fa-lg fa-1x hover-stars"></i></a>
+                <a class="stars-icons" href="#"><i class="fas fa-star fa-lg fa-1x hover-stars"></i></a>
+                <a class="stars-icons" href="#"><i class="fas fa-star fa-lg fa-1x hover-stars"></i></a>
+              </div>
             </div>
           </div>
         </div>
-        <!-- 
-          {property}{sides}-{size}
-          {property}{sides}-{breakpoint}-{size}
-          m/p - margin, padding
-          t/b/s/e/x/y - top, bottom, left, right, both x, both y
-          0-5/auto
-         -->
-        <div class="
-          col-lg 
-          px-0
-          px-0 
-          py-3 
-          py-lg-0">
-          <table class="table table-success table-striped h-100">
-            <thead>
-              <tr>
-                <th class="text-center" scope="col" colspan="3">INGREDIENTS</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">1</th>
-                <td>100ml</td>
-                <td>Milk</td>
-              </tr>
-              <tr>
-                <th scope="row">2</th>
-                <td>1g</td>
-                <td>Sugar</td>
-              </tr>
-              <tr>
-                <th scope="row">3</th>
-                <td>1⁄2 Cup</td>
-                <td>Rum</td>
-              </tr>
-              <tr>
-                <th scope="row">4</th>
-                <td>100ml</td>
-                <td>Milk</td>
-              </tr>
-              <tr>
-                <th scope="row">5</th>
-                <td>1g</td>
-                <td>Sugar</td>
-              </tr>
-              <tr>
-                <th scope="row">6</th>
-                <td>1⁄2 Cup</td>
-                <td>Rum</td>
-              </tr>
-            </tbody>
-          </table>
+
+        <hr>
+
+        <!--Image + Table of ingredients -->
+        <div class="row">
+          <div class=" col-lg-8 px-0 py-3 pe-lg-3 py-lg-0">
+            <div class="card">
+              <img src="img/pancakes-example-hori.jpg" class="card-img-top" alt="...">
+              <div class="card-body text-center pb-0">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg px-0 py-3 py-lg-0">
+            <table class="table table-success table-striped h-100">
+              <thead>
+                <tr>
+                  <th class="text-center" scope="col" colspan="3">INGREDIENTS</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>100ml</td>
+                  <td>Milk</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>1g</td>
+                  <td>Sugar</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>1⁄2 Cup</td>
+                  <td>Rum</td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>100ml</td>
+                  <td>Milk</td>
+                </tr>
+                <tr>
+                  <th scope="row">5</th>
+                  <td>1g</td>
+                  <td>Sugar</td>
+                </tr>
+                <tr>
+                  <th scope="row">6</th>
+                  <td>1⁄2 Cup</td>
+                  <td>Rum</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
+
+        <hr>
+
+        <div class="row">
+
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">First step</h5>
+            <small>5 minutes</small>
+          </div>
+          <p class="mb-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, odio libero, quas quae
+            deserunt provident iure est adipisci optio, eum saepe ullam! Laborum minima, officia pariatur iure harum
+            dolore doloribus.</p>
+          <small>Lorem ipsum dolor sit amet consectetur adipisicing elit.</small>
+        </div>
+
+        <div class="row">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Second step</h5>
+            <small>5 minutes</small>
+          </div>
+          <p class="mb-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, odio libero, quas quae
+            deserunt provident iure est adipisci optio, eum saepe ullam! Laborum minima, officia pariatur iure harum
+            dolore doloribus.</p>
+          <small>Lorem ipsum dolor sit amet consectetur adipisicing elit.</small>
+        </div>
+
+        <div class="row">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Third step</h5>
+            <small>5 minutes</small>
+          </div>
+          <p class="mb-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, odio libero, quas quae
+            deserunt provident iure est adipisci optio, eum saepe ullam! Laborum minima, officia pariatur iure harum
+            dolore doloribus.</p>
+          <small>Lorem ipsum dolor sit amet consectetur adipisicing elit.</small>
+        </div>
+
       </div>
 
-      <div class="row">
-
-        <div class="d-flex w-100 justify-content-between">
-          <h5 class="mb-1">First step</h5>
-          <small>5 minutes</small>
-        </div>
-        <p class="mb-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, odio libero, quas quae
-          deserunt provident iure est adipisci optio, eum saepe ullam! Laborum minima, officia pariatur iure harum
-          dolore doloribus.</p>
-        <small>Lorem ipsum dolor sit amet consectetur adipisicing elit.</small>
-      </div>
-
-      <div class="row">
-        <div class="d-flex w-100 justify-content-between">
-          <h5 class="mb-1">Second step</h5>
-          <small>5 minutes</small>
-        </div>
-        <p class="mb-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, odio libero, quas quae
-          deserunt provident iure est adipisci optio, eum saepe ullam! Laborum minima, officia pariatur iure harum
-          dolore doloribus.</p>
-        <small>Lorem ipsum dolor sit amet consectetur adipisicing elit.</small>
-      </div>
-
-      <div class="row">
-        <div class="d-flex w-100 justify-content-between">
-          <h5 class="mb-1">Third step</h5>
-          <small>5 minutes</small>
-        </div>
-        <p class="mb-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, odio libero, quas quae
-          deserunt provident iure est adipisci optio, eum saepe ullam! Laborum minima, officia pariatur iure harum
-          dolore doloribus.</p>
-        <small>Lorem ipsum dolor sit amet consectetur adipisicing elit.</small>
-      </div>
 
   </main>
 
   <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col">Copyright</div>
-        <div class="col">Impressum</div>
-        <div class="col">
-          <h3>Social</h3>
+    <div class="container-fluid container-footer">
+      <div class="row fw-light">
+
+        <div class="col-lg py-2 text-lg-start text-center fs-6 fw-lighter">
+          <h5>Digital Food</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex odio aspernatur rem in hic cum nihil
+            recusandae
+            accusamus minus..</p>
+        </div>
+
+        <div class="col-lg py-2 text-lg-start text-center">
+          <h5>Newsletter</h5>
+          <form class="d-flex input-group w-auto">
+            <input type="search" class="form-control" placeholder="Join us..." aria-label="Search" />
+            <button class="btn btn-outline-light" type="button" data-mdb-ripple-color="light">
+              Subscribe
+            </button>
+          </form>
+        </div>
+
+        <div class="col-lg py-2 text-lg-start text-center">
+          <h5>Social</h5>
           <div>
             <ul class="social-network social-circle">
               <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
-              <li><a href="#" class="icoFacebook" title="Facebook"><i class="fab fa-facebook-square"></i></a></li>
+              <li><a href="#" class="icoFacebook" title="Facebook"><i class="fab fa-facebook"></i></a>
+              </li>
               <li><a href="#" class="icoTwitter" title="Twitter"><i class="fab fa-twitter"></i></a></li>
               <li><a href="#" class="icoYoutube" title="Google +"><i class="fab fa-youtube"></i></a></li>
-              <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fab fa-linkedin"></i></a></li>
+              <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fab fa-linkedin"></i></a>
+              </li>
             </ul>
           </div>
         </div>
+
+      </div>
+      <div class="row text-start p-0 m-0">
+        <h5 class="fs-6 fw-lighter">Copyright &copy; 2021. Digital Food</h5>
       </div>
     </div>
   </footer>
-
-  <!-- End your project here-->
-
   <!-- MDB -->
   <script type="text/javascript" src="js/mdb.min.js"></script>
-  <!-- Custom scripts -->
-  <script type="text/javascript"></script>
+  <!-- Our JavaScript -->
+  <script type="text/javascript" src="js/scripts.js"></script>
 </body>
 
 </html>
