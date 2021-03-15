@@ -313,7 +313,8 @@ a:hover,
 /****************** Robertos part ******************/
 
 /*** Share and Save icons  ***/
-.btns-share i {
+.btns-share i,
+.btns-save i {
   font-size: 1.3rem;
   color: #fff;
 }
