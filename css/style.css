@@ -1,6 +1,6 @@
 body {
   background: #daded4;
-  font-family: "Roboto";
+  font-family: 'Roboto', sans-serif;
 }
 
 h1,
@@ -10,6 +10,7 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: 'Bangers', Arial, Helvetica, sans-serif;
   color: rgb(168, 190, 155);
 }
 
@@ -311,6 +312,19 @@ a:hover,
 }
 
 /****************** Robertos part ******************/
+
+/* Pagination */
+.page-link {
+  background-color: rgb(9, 103, 91);
+  border-top: #9dc88d solid 1px;
+  border-left: #9dc88d solid 1px;
+  color: rgb(220, 244, 207);
+}
+
+.page-link:hover {
+  background-color:#9dc88d;
+  border-top:  rgb(9, 103, 91) solid 1px;
+}
 
 /*** Share and Save icons  ***/
 .btns-share i,
